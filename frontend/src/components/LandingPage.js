@@ -70,7 +70,7 @@ const LandingPage = () => {
               },
             }}
           >
-            Go to Dashboard
+            Welcome to Batch-3
           </Button>
         </Box>
 
