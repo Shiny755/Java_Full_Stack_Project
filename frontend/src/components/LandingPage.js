@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button, Container, Grid, Card, CardContent, useMediaQuery } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { red } from '@mui/material/colors';
 
 const LandingPage = () => {
   const isSmallScreen = useMediaQuery(theme => theme.breakpoints.down('sm'));
@@ -60,7 +61,7 @@ const LandingPage = () => {
             to="/dashboard"
             variant="contained"
             sx={{
-              backgroundColor: '#ff9800',
+              backgroundColor: "#ffebee",
               color: 'white',
               padding: '0.75rem 1.5rem',
               fontSize: '1rem',
